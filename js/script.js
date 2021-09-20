@@ -1,9 +1,11 @@
 "use strict"
 
 const liExplore = document.querySelector(".nav-item-explore");
-const exploreModal = document.querySelector(".explore");
 const liPlaces = document.querySelector(".nav-item-places");
+
+const exploreModal = document.querySelector(".explore");
 const placesModal = document.querySelector(".places");
+
 
 liExplore.addEventListener("click", function(){
     placesModal.classList.add("hidden");
