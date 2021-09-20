@@ -1,109 +1,108 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 /* ----------------------------------------------HEADER---------------------------------------------- */
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  /* border: olive 2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: olive 2px solid; */
 }
 .logo {
-  height: 40px;
-  width: 30px;
-  border-radius: 20px;
-  margin-left: 30px;
+    height: 40px;
+    width: 30px;
+    border-radius: 20px;
+    margin-left: 30px;
 }
 .nav-items {
-  display: flex;
+    display: flex;
 }
 .nav-item {
-  margin-left: 48px;
-  text-decoration: none;
-  color: black;
+    margin-left: 48px;
+    text-decoration: none;
+    color: black;
 }
 .nav-item:last-child {
-  margin-right: 30px;
+    margin-right: 30px;
 }
 
 /* ------------------------------------------SECTION------------------------------------------ */
 .content {
-  position: relative;
+    position: relative;
 }
 .top-gradient {
-  background: rgba(255, 255, 255, 0)
-    linear-gradient(
-      to top,
-      rgba(0, 0, 0, 0) 10%,
-      rgba(255, 255, 255, 0.1) 40%,
-      rgba(255, 255, 255, 0.5) 75%,
-      rgba(255, 255, 255, 1) 100%
-    )
-    repeat scroll 0 0;
-  position: relative;
-  margin-bottom: -300px;
-  height: 300px;
+    background: rgba(255, 255, 255, 0)
+        linear-gradient(
+            to top,
+            rgba(0, 0, 0, 0) 10%,
+            rgba(255, 255, 255, 0.1) 40%,
+            rgba(255, 255, 255, 0.5) 75%,
+            rgba(255, 255, 255, 1) 100%
+        )
+        repeat scroll 0 0;
+    position: relative;
+    margin-bottom: -300px;
+    height: 300px;
 }
 .content img {
-  width: 100vw;
-  height: 200vh;
+    width: 100vw;
+    height: 200vh;
 }
 .bottom-gradient {
-  background: rgba(255, 255, 255, 0)
-    linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0) 10%,
-      rgba(255, 255, 255, 0.1) 40%,
-      rgba(255, 255, 255, 0.5) 75%,
-      rgba(255, 255, 255, 1) 100%
-    )
-    repeat scroll 0 0;
-  position: relative;
-  margin-top: -700px;
-  height: 700px;
+    background: rgba(255, 255, 255, 0)
+        linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0) 10%,
+            rgba(255, 255, 255, 0.1) 40%,
+            rgba(255, 255, 255, 0.5) 75%,
+            rgba(255, 255, 255, 1) 100%
+        )
+        repeat scroll 0 0;
+    position: relative;
+    margin-top: -700px;
+    height: 700px;
 }
 
 .donation-quote {
-  font-family: "Dancing Script", cursive;
-  font-size: 4rem;
-  color: #0000008a;
-  position: absolute;
-  top: 80%;
-  right: 7%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    color: #0000008a;
+    position: absolute;
+    top: 80%;
+    right: 7%;
 }
 
 .modal {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: crimson;
-  padding: 15px 30px;
-  border-radius: 10px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: crimson;
+    padding: 15px 30px;
+    border-radius: 10px;
 }
 .explore {
-  top: 1%;
-  right: 17%;
+    top: 1%;
+    right: 17%;
 }
 .places {
-  top: 1%;
-  right: 11%;
+    top: 1%;
+    right: 11%;
 }
 .modal a {
-  color: white;
-  text-decoration: none;
-
-  font-weight: 200;
-  font-family: "Merriweather", serif;
-  margin: 6px 0;
+    color: white;
+    text-decoration: none;
+    font-weight: 200;
+    font-family: 'Merriweather', serif;
+    margin: 6px 0;
 }
 
 /* ---------------------------------FOOTER--------------------------------- */
@@ -111,12 +110,13 @@ body::-webkit-scrollbar {
   border: black 2px solid;
 } */
 .footer h3 {
-  font-size: 15px;
-  font-weight: 100;
-  text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
+    color: #0f0f0f91;
 }
 
 /* ---------------------------------EXTRA--------------------------------- */
 .hidden {
-  display: none;
+    display: none;
 }
