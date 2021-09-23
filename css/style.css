@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@500&display=swap');
 
 * {
     margin: 0;
@@ -70,16 +71,43 @@ body::-webkit-scrollbar {
     margin-top: -700px;
     height: 700px;
 }
-
-.donation-quote {
-    font-family: 'Dancing Script', cursive;
+.main-text {
+    font-family: 'Stick No Bills', sans-serif;
     font-size: 4rem;
+    position: absolute;
+    color: black;
+    bottom: 20%;
+    left: 8%;
+}
+.donation-quote {
+    font-family: 'Merriweather', serif;
+    font-size: 1rem;
     color: #0000008a;
     position: absolute;
-    top: 80%;
-    right: 7%;
+    bottom: 18%;
+    right: 70%;
 }
-
+.donate-btn {
+    position: absolute;
+    bottom: 8%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+.donate-btn a {
+    padding: 15px 25px;
+    font-size: 40px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    background: rgb(79, 7, 7);
+}
+.donate-btn a:hover {
+    color: black;
+    background: rgb(148, 6, 6);
+}
 .modal {
     position: absolute;
     display: flex;
