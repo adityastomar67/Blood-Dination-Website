@@ -106,6 +106,7 @@ body::-webkit-scrollbar {
 .donate-btn a:hover {
     color: black;
     background: rgb(148, 6, 6);
+    box-shadow: rgba(255, 255, 255, 0.1);
 }
 .modal {
     position: absolute;
